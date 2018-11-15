@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 //imports 
+=======
+//imports
+>>>>>>> 9d1dde4c4ad0026054bf9b9d40499bce37e1275c
 import React, { Component } from 'react'; 
 import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux'; 
