@@ -8,7 +8,6 @@ const ROOT_URL = `https://api.openweathermap.org/data/2.5/forecast?&appid=${API_
 //exports 
 export const FETCH_WEATHER = 'FETCH_WEATHER'; 
 export function fetchWeather(city) {
-
     //api request url
     const url = `${ROOT_URL}&q=${city}, ca`;
     //ajax request using axios(returns a promise)
