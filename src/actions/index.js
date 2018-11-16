@@ -11,15 +11,10 @@ export function fetchWeather(city) {
 
     //api request url
     const url = `${ROOT_URL}&q=${city}, us`;
-<<<<<<< HEAD
-<<<<<<< HEAD
     //ajax request using axios(returns a promise)
-=======
->>>>>>> parent of a823878... added the ability to make api requests using search bar
-=======
-    //ajax request using axios(returns a promise)
->>>>>>> 9d1dde4c4ad0026054bf9b9d40499bce37e1275c
     const request = axios.get(url);
+
+    console.log('request:', request); 
     return {
         type: FETCH_WEATHER, 
         playload: request
